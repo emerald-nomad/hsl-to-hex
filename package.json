@@ -1,11 +1,31 @@
 {
-  "name": "hsl-to-hex",
+  "name": "@jtgreene/hsl-to-hex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Conver HSL colors to RGB colors in hex format",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && tap --cov test",
+    "lint": "standard",
+    "fix": "standard --fix"
   },
   "author": "Jalen Greene",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "tap": "^14.8.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrell-greene/hsl-to-hex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/terrell-greene/hsl-to-hex/issues"
+  },
+  "homepage": "https://github.com/terrell-greene/hsl-to-hex#readme"
 }
