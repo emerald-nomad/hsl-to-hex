@@ -4,6 +4,7 @@
   "description": "Conver HSL colors to RGB colors in hex format",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm ls && npm test",
     "test": "npm run lint && tap --cov test",
     "lint": "standard",
     "fix": "standard --fix"
